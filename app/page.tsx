@@ -1,4 +1,4 @@
-
+export const dynamic = "force-dynamic"
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
@@ -8,6 +8,7 @@ import Clients from "@/components/ui/Clients";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import RecentProjects from "@/components/ui/RecentProjects";
 import { navItems } from "@/Data";
+
 // import { FaHome } from "react-icons/fa";
 
 
