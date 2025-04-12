@@ -1,6 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { useEffect, useRef, useState } from "react";
+import dynamic from 'next/dynamic';
 
 export const BackgroundGradientAnimation = ({
   gradientBackgroundStart = "rgb(108, 0, 162)",
@@ -179,3 +180,6 @@ export const BackgroundGradientAnimation = ({
     </div>
   );
 };
+export default dynamic(() => Promise.resolve(BackgroundGradientAnimation), {
+  ssr: false,
+});
