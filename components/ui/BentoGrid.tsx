@@ -1,6 +1,6 @@
 'use client'
 import { cn } from "@/lib/utils";
-import { MdGradient } from "react-icons/md";
+// import { MdGradient } from "react-icons/md";
 import { BackgroundGradientAnimation } from "./Gradientbg";
 import { GlobeDemo } from "./GridGlobe";
 import Lottie from "react-lottie";
